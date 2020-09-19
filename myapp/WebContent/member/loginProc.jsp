@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<jsp:useBean id="mMgr" class="ch14.MemberMgr"/>
+<jsp:useBean id="mMgr" class="member.MemberMgr"/>
 <%
 	request.setCharacterEncoding("utf-8");
 	String id = request.getParameter("id");

@@ -1,4 +1,4 @@
-package ch14;
+package member;
 
 public class ZipcodeBean {
 

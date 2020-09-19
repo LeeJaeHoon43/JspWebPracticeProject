@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@page import="ch14.ZipcodeBean"%>
+<%@page import="member.ZipcodeBean"%>
 <%@page import="java.util.Vector"%>
-<jsp:useBean id="mMgr" class="ch14.MemberMgr" />
+<jsp:useBean id="mMgr" class="member.MemberMgr" />
 <%
 	request.setCharacterEncoding("utf-8");
 	String search = request.getParameter("search");
